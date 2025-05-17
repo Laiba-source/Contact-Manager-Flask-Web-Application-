@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block title %}Home - Contact Manager{% endblock %}
+
+{% block content %}
+<div class="text-center">
+  <h1>Welcome to Contact Manager</h1>
+  <p class="lead">Manage your contacts easily and securely.</p>
+  <a href="{{ url_for('register') }}" class="btn btn-primary">Get Started</a>
+</div>
+{% endblock %}
